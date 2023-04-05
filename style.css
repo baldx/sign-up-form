@@ -108,6 +108,7 @@ input:valid {
 button {
     margin-left: 32px;
     font-size: 16px;
+    font-family: inherit;
     font-weight: 700;
     background: var(--button-color);
     color: var(--bg-color);
@@ -125,4 +126,15 @@ button:hover {
 
 button:active {
     background-color: #FFA559;
+}
+
+h3 {
+    margin-left: 32px;
+    color: var(--text-color);
+    position: relative;
+    bottom: 60px;
+}
+
+a {
+    color: var(--h-color);
 }
