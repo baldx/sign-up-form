@@ -1,8 +1,8 @@
 :root {
     --bg-color: #454545;
     --text-color: #FFE6C7;
-    --button-color: #FF6000;
-    --h-color: #FFA559;
+    --button-color:#FFA559;
+    --h-color: #FF6000;
 }
 
 @font-face {
@@ -22,5 +22,27 @@ img {
     height: 100vh;
 }
 
-.form-container {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.header {
+    width: 60vw;
+    height: 10vw;
+    color: var(--h-color);
+    font-size: 2em;
+    margin-left: 32px;
+}
+
+.sub-header {
+    width: 60vw;
+    color: var(--h-color);
+    font-size: 1.7em;
+    margin-left: 32px;
+    position: relative;
+    bottom: 60px;
 }
