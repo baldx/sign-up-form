@@ -25,6 +25,7 @@ body {
 img {
     height: 99vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 33.4vw;
 }
 
 .container {
@@ -137,4 +138,16 @@ h3 {
 
 a {
     color: var(--h-color);
+}
+
+h1 {
+    color: var(--text-color);
+    position: absolute;
+    bottom: 600px;
+    left: 0px;
+    height: 15vh;
+    width: 33.4vw;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 16px;
 }
