@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #454545;
+    --text-color: #FFE6C7;
+    --button-color: #FF6000;
+    --h-color: #FFA559;
+}
+
+@font-face {
+    font-family: Alkatra;
+    src: url(assets/Alkatra-VariableFont_wght.ttf);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: var(--bg-color, black);
+    font-family: Alkatra ;
+    display: flex;
+}
+
+img {
+    height: 100vh;
+}
+
+.form-container {
+}
